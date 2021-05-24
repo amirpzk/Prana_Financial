@@ -1,0 +1,19 @@
+package com.prana.financial.controller.advice;
+
+public interface Status {
+
+    int TOKEN_NOT_VALIDATED_WITH_THIS_SECRET_PASS = 100;
+
+    int VERIFIED_USER_WITH_THIS_USERNAME_EXISTS = 1;
+    int UN_VERIFIED_USER_WITH_THIS_USERNAME_EXISTS = 2;
+    int USER_BAD_REQUEST = 3;
+    int USER_NOT_FOUND = 4;
+    int VERIFICATION_CODE_EXPIRED = 5;
+    int WRONG_VERIFICATION_CODE = 6;
+    int FORGET_PASSWORD_CODE_EXPIRED = 7;
+    int WRONG_FORGET_PASSWORD_CODE = 8;
+    int WRONG_CHANGE_PASSWORD_AUTHENTCATE = 9;
+    int WRONG_USER_PASSWORD = 10;
+    int SMS_NOT_SEND = 11;
+
+}
